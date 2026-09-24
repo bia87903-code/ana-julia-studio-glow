@@ -171,6 +171,8 @@
   animation: slow-zoom 16s ease-out both;
 }
 
+#lovable-badge { display: none !important; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     scroll-behavior: auto !important;
