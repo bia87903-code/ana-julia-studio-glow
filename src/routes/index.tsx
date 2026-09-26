@@ -1,14 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, Instagram, MapPin, MessageCircle } from "lucide-react";
 
-import heroAsset from "@/assets/ana-julia-hero.png.asset.json";
-import portraitAsset from "@/assets/ana-julia-retrato.jpg.asset.json";
-import careAsset from "@/assets/cuidado-capilar.jpg.asset.json";
-import stylingAsset from "@/assets/escova-profissional.jpg.asset.json";
-import resultAsset from "@/assets/resultado-cabelos.jpg.asset.json";
-import techniqueAsset from "@/assets/tecnica-corte.jpg.asset.json";
-import logoAsset from "@/assets/studio-ana-julia-logo.jpg.asset.json";
 import { Button } from "@/components/ui/button";
+
+const heroAsset = { url: "/images/ana-julia-hero.png" };
+const portraitAsset = { url: "/images/ana-julia-retrato.jpg" };
+const careAsset = { url: "/images/cuidado-capilar.jpg" };
+const stylingAsset = { url: "/images/escova-profissional.jpg" };
+const resultAsset = { url: "/images/resultado-cabelos.jpg" };
+const techniqueAsset = { url: "/images/tecnica-corte.jpg" };
+const logoAsset = { url: "/images/studio-ana-julia-logo.jpg" };
 
 const whatsapp =
   "https://wa.me/5511994321904?text=Ol%C3%A1%2C%20Ana%20Julia!%20Conheci%20o%20Studio%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.";
